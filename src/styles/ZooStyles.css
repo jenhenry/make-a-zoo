@@ -1,0 +1,203 @@
+.Zoo {
+  height: 95vh;
+  padding: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.Zoo .col {
+  padding: 5px;
+}
+
+.Zoo .row {
+  margin: 0;
+}
+
+.Zoo header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 8%;
+  border-bottom: #127b8c 2px solid;
+  margin-bottom: 0.35rem;
+}
+
+.Zoo header a {
+  margin-left: auto;
+}
+
+.ZooList {
+  height: 95%;
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 1rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -ms-grid-columns: (23.8%)[4];
+      grid-template-columns: repeat(4, 23.8%);
+  grid-auto-rows: 25%;
+  border-left: none;
+  padding-top: .75rem;
+  overflow-y: auto;
+}
+
+.ZooList .ZooCard {
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  margin-top: 0;
+  background-position: center;
+}
+
+.ZooList .ZooCard .title {
+  line-height: 1.15;
+}
+
+.ZooList .ZooCard:hover {
+  cursor: pointer;
+}
+
+.ZooCard {
+  display: inline-block;
+  position: relative;
+  height: 24%;
+  width: 24%;
+  min-width: 248px;
+  background-size: cover;
+  margin-top: .75rem;
+}
+
+.ZooCard .overlay {
+  opacity: 0;
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  display: inline-block;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  padding: .5em .75em .75em;
+}
+
+.ZooCard .overlay .title {
+  font-weight: 600;
+  font-size: 1.5em;
+  padding-bottom: .25em;
+}
+
+.ZooCard .overlay .items {
+  font-size: 0.75em;
+  line-height: 1.2;
+}
+
+.ZooCard .overlay .items_false {
+  opacity: 0 !important;
+}
+
+.ZooCard .overlay .items_true {
+  opacity: 1;
+}
+
+.ZooCard .overlay .factoid {
+  opacity: 0;
+  position: absolute;
+  top: 3.75em;
+  left: 1em;
+  right: 1em;
+  bottom: 1em;
+  font-size: .75em;
+  padding: .75em;
+  background: rgba(255, 255, 255, 0.75);
+  color: black;
+  line-height: 1.3;
+  font-weight: 500;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.ZooCard .overlay .factoid_false {
+  opacity: 0;
+}
+
+.ZooCard .overlay .factoid_true {
+  opacity: 1;
+}
+
+.ZooCard:hover .overlay {
+  opacity: 1;
+}
+
+.ZooCard .card-icon {
+  position: absolute;
+  right: .5em;
+  font-size: 1em;
+  opacity: .85;
+  z-index: 10;
+  color: rgba(255, 255, 255, 0.95);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.ZooCard .info-icon {
+  top: .25em;
+}
+
+.ZooCard .info-icon:hover {
+  opacity: 1;
+  -webkit-transform: scale(1.25);
+          transform: scale(1.25);
+}
+
+.ZooCard .delete-icon {
+  bottom: .25em;
+}
+
+.ZooCard .delete-icon .delete-btn {
+  background: none;
+  color: rgba(255, 255, 255, 0.95);
+}
+
+.ZooCard .delete-icon .addl {
+  display: none;
+  opacity: 0;
+  font-size: .75em;
+  padding-right: .75em;
+}
+
+.ZooCard .delete-icon:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  opacity: 1;
+}
+
+.empty-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 2rem;
+  border: 2px dashed lightgray;
+  color: lightgray;
+  cursor: pointer;
+}
+/*# sourceMappingURL=ZooStyles.css.map */

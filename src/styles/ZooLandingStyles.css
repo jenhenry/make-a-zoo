@@ -1,0 +1,101 @@
+.ZooLanding {
+  height: 95vh;
+  padding: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.ZooLanding header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 8%;
+  border-bottom: #127b8c 2px solid;
+  margin-bottom: 0.35rem;
+}
+
+.ZooLanding header a {
+  margin-left: auto;
+}
+
+.ZooLanding .carousel-img {
+  background-size: cover;
+  background-position: center;
+}
+
+.ZooLanding .mini-zoo-list {
+  width: 100%;
+  margin-top: 1rem;
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 1.2rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -ms-grid-columns: (32%)[3];
+      grid-template-columns: repeat(3, 32%);
+}
+
+.ZooLanding .MiniZoo {
+  cursor: pointer;
+  padding: 0.5rem;
+  overflow: hidden;
+  position: relative;
+  border-radius: 5px;
+  background-color: white;
+  -webkit-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+          box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.ZooLanding .Mini {
+  height: 25%;
+  width: 25%;
+  display: inline-block;
+  margin: 0 auto;
+  position: relative;
+  background: gray;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  margin-bottom: -7px;
+  border: 1px solid white;
+}
+
+.ZooLanding .mini-title {
+  color: black;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  font-size: 1rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 0.5rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-weight: 600;
+}
+
+.ZooLanding .mini-animals {
+  width: 100%;
+  height: 210px;
+  overflow: hidden;
+  border-radius: 5px;
+  background-color: #dae1e4;
+}
+/*# sourceMappingURL=ZooLandingStyles.css.map */
