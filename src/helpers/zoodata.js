@@ -369,7 +369,7 @@ const zoo_animals = [
 	{
 		id: '210',
 		common_name: 'Clouded Leopard',
-		img: 'xx',
+		img: 'cloudedleopard.png',
 		location: 'Southeast Asia',
 		habitat: 'Tropical forests',
 		food: 'Birds, fish, deer, small primates, rodents',
@@ -386,7 +386,7 @@ const zoo_animals = [
 	{
 		id: '220',
 		common_name: 'Poison Dart Frog',
-		img: 'xx',
+		img: 'poisondartfrog.png',
 		location: 'Central and South America',
 		habitat: 'Rainforests',
 		food: 'Spiders, small invertebrates',
@@ -403,7 +403,7 @@ const zoo_animals = [
 	{
 		id: '230',
 		common_name: 'Anaconda',
-		img: 'xx',
+		img: 'anaconda.png',
 		location: 'South America',
 		habitat: 'Swamps and marshes',
 		food: 'Mammals, birds, reptiles, amphibians, fish, and eggs',
@@ -420,7 +420,7 @@ const zoo_animals = [
 	{
 		id: '240',
 		common_name: 'Ocelot',
-		img: 'xx',
+		img: 'ocelot.png',
 		location: 'Central and South America',
 		habitat: 'Tropical forests, swamps and savannah',
 		food: 'Small mammals, small birds, fish, and reptiles',
